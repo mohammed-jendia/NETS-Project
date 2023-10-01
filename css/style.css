@@ -1,0 +1,515 @@
+body{
+    background: #2B2B2B !important;
+    font-family: 'Work Sans', sans-serif;
+}
+
+html h1,h2,h3,h4,h5,h6,p,span{
+    color: white;
+}
+
+
+.img-fould{
+    width: 100%;
+    max-width: 100%;
+}
+
+/****************Nav****************/
+.buttons {
+    border-radius: 20px;
+}
+
+.btn-inline{
+    background-color: #A259FF;
+    border: none;
+}
+
+.btn-outline{
+    background-color: #2B2B2B;
+    border: 2px solid #A259FF;
+}
+
+.btn-outline img{
+    color:#A259FF ;
+}
+
+.nav-link {
+    padding: 0.5rem 1.5rem !important;
+}
+
+.width{
+    width: 24px;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.fw{
+    font-weight: 500;
+}
+/****************header****************/
+
+.Placeholder-img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.bg-Secondary{
+    background:#3B3B3B;
+    border-radius: 0 0 20px 20px;
+}
+
+.margin-negative{
+    margin-top: -140px;
+}
+
+/**************** creators****************/
+
+.box{
+    background:#3B3B3B;
+    border-radius: 20px;
+}
+
+.box p{
+    color: #858584;
+}
+
+.box .size{
+    font-size: 17px;
+}
+
+.position-absolute{
+    left: 20px;
+}
+
+/**************** Categories****************/
+
+.Categories-box{
+    background:#3B3B3B;
+    border-radius: 20px;
+}
+ 
+.Categories-box img{
+    width: 100%;
+}
+
+/**************** Discover****************/
+
+.full-width{
+    width: 100%;
+    max-width: 100%;
+}
+
+.Secondary h6{
+    color: #858584;
+}
+
+.light{
+    color: white !important;
+}
+
+.bg-Secondary-2{
+    background:#3B3B3B;
+    border-radius: 20px;
+}
+
+.email{
+    padding: 16px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: none;
+    width: 230px;
+    margin-right: -30px;
+}
+
+.btn-join{
+    margin-left: -40px;
+} 
+
+/**************** footer****************/
+
+.footer{
+    background-color: #3B3B3B;
+}
+
+.padding-paragraph{
+    padding-right: 90px;
+}
+
+.footer p,h6{
+    color: #CCCCCC;
+}
+
+.footer hr{
+    background-color:#CCCCCC; 
+    margin-top: -7px;
+}
+
+.margin-Get{
+    margin-left: -70px;
+}
+
+
+
+@media (max-width: 400px){
+    body {
+        border: 1px solid black;
+    }
+
+    .none-602{
+        display: none;
+    }
+    
+    .none-plus{
+        display: none;
+    }
+
+/****************Nav****************/
+.none-logo{
+    display: none;
+}
+
+/****************header****************/
+.margin-negative{
+    margin-top: 30px;
+    width: 100%;
+}
+/****************Trending****************/
+
+.Disco{
+    display: none;
+}
+
+.Magic{
+    display: none;
+}
+
+.none-img{
+    display: none;
+}
+
+/**************** creators****************/
+.secound-Creators{
+    display: none;
+}
+
+.third-Creators{
+    display: none;
+}
+
+.box-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 70px !important;
+}
+
+.Avatar-img{
+    width: 80px;
+}
+
+.position-absolute{
+    top: 20px;
+}
+
+.right{
+    display: none;
+}
+
+/**************** works****************/
+.Works .box{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-bottom: 20px;
+}
+
+.Works img{
+    display: none;
+    width: 100px;
+}
+
+/**************** join****************/
+.email-join{
+    padding: 10px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.btn-join {
+    width: 100%;
+    height: 50px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+/**************** footer****************/
+._h5{
+    font-size: 22px;
+}
+
+html p{
+    font-size: 16px !important;
+}
+
+.margin-Get{
+    margin-left: 0px;
+}
+
+.email{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.btn-footer {
+    width: 100%;
+    height: 50px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 576px) {
+
+    .none-602{
+        display: none;
+    }
+
+    .none-plus{
+        display: none;
+    }
+
+/****************header****************/
+.margin-negative{
+    margin-top: 30px;
+    width: 100%;
+}
+
+/****************Trending****************/
+.Disco{
+    display: none;
+}
+
+.Magic{
+    display: none;
+}
+
+/**************** creators****************/
+.secound-Creators{
+    display: none;
+}
+
+.third-Creators{
+    display: none;
+}
+
+.box-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 70px !important;
+}
+
+.Avatar-img{
+    width: 80px;
+}
+
+.right{
+    display: none;
+}
+
+/**************** works****************/
+.Works .box{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-bottom: 20px;
+}
+
+.Works img{
+    width: 100px;
+}
+
+/**************** join****************/
+.email-join{
+    padding: 10px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.btn-join {
+    width: 100%;
+    height: 50px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+/**************** footer****************/
+._h5{
+    font-size: 22px;
+}
+
+html p{
+    font-size: 16px !important;
+}
+
+.margin-Get{
+    margin-left: 0px;
+}
+
+.email-footer {
+    width: 80%;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.btn-footer {
+    width: 80%;
+    height: 50px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .none-602{
+        display: none;
+    }
+
+    .none-plus{
+        display: none;
+    }
+/****************header****************/
+.margin-negative{
+    margin-top: 30px;
+    width: 100%;
+}
+/****************Trending****************/
+.Disco{
+    display: none;
+}
+
+.Magic{
+    display: none;
+}
+
+/**************** creators****************/
+.third-Creators{
+    display: none;
+}
+
+.right{
+    display: none;
+}
+
+/**************** works****************/
+.Works .box{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-bottom: 20px;
+}
+
+.Works img{
+    width: 120px;
+}
+
+/**************** join****************/
+.email-join{
+    padding: 10px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.btn-join {
+    width: 100%;
+    height: 50px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+/**************** footer****************/
+._h5{
+    font-size: 22px;
+}
+
+html p{
+    font-size: 16px !important;
+}
+
+.margin-Get{
+    margin-left: 0px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .none-602{
+        display: none;
+    }
+
+/****************header****************/
+
+.margin-negative{
+    margin-top: -120px;
+}
+
+/****************Trending****************/
+.Disco{
+    display: none;
+}
+
+/**************** creators****************/
+.third-Creators{
+    display: none;
+}
+
+/**************** Discover****************/
+.third-Discover{
+    display: none;
+}
+
+/**************** work****************/
+.Works img{
+    width: 150px;
+}
+
+/**************** join****************/
+.email-join{
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.btn-join {
+    width: 100%;
+    height: 50px;
+    margin-left: 0px;
+}
+
+/**************** footer****************/
+._h5{
+    font-size: 22px;
+}
+
+html p{
+    font-size: 16px !important;
+}
+
+.margin-Get{
+    margin-left: 0px;
+}
+}
+
+@media only screen and (min-width: 992px) and (max-width:1200px){
+
+/****************header****************/
+.margin-negative{
+    margin-top: -80px;
+}
+
+}

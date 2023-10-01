@@ -1,0 +1,137 @@
+.max-width{
+    width: 100%;
+    max-width: 100%;
+}
+
+section{
+    margin-top: 0 !important;
+}
+
+.position-absolute{
+    bottom: -50px;
+    left: 120px;
+}
+
+.Animakid{
+    margin-top: 100px;
+}
+
+.Secondary{
+    color: #858584;
+}
+
+.button-margin{
+    margin-top: -15px;
+}
+
+.artits hr{
+   color:  #858584; 
+}
+
+.background-number{
+    background-color: #3B3B3B;
+    border-radius: 22px;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.active{
+    background-color:#858584;
+}
+
+.second-create .hover:hover{
+    color:  white;
+}
+
+.background{
+    background-color: #3B3B3B;
+}
+
+.colore-div{
+    background-color: #2B2B2B;
+}
+
+.second-create hr{
+    margin: 1.5px;
+}
+
+.action{
+    border-bottom: 2px solid #858584;
+}
+
+
+@media (max-width: 400px){
+
+    .artits .buttons{
+        width: 100%;
+    }
+
+    .button-margin{
+        margin-top: 0px;
+    }
+
+    .artits .persone{
+        width: 70px;
+      }
+
+      .background-number{
+        display: none;
+    }
+
+    .none-row{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 576px) {
+
+    .artits .buttons{
+        width: 100%;
+    }
+
+    .button-margin{
+        margin-top: 0px;
+    }
+
+    .artits .persone{
+      width: 100px;
+    }
+
+    .center-artit{
+        text-align: center;
+    }
+
+    .background-number{
+        display: none;
+    }
+
+    .none-row{
+        display: none;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .artits .buttons{
+        width: 100%;
+    }
+
+    .button-margin{
+        margin-top: 0px;
+    }
+
+    .none-row{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .button-margin{
+        margin-top: 10px;
+    }
+
+    .none-col{
+        display: none;
+    }
+}

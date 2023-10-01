@@ -1,0 +1,95 @@
+section{
+    margin-top: 0px !important;
+}
+
+.connect-divs{
+    width: 60%;
+    height: 70px;
+    border-radius: 15px ;
+    border: 1px solid  #A259FF;
+}
+
+
+@media (max-width: 400px){
+
+    .connect-divs{
+        width: 100%;
+        height: 70px;
+    }
+
+    .connect .margin-top{
+        margin-top: 30px !important;
+    }
+
+    .connect .main{
+        margin-right: 50px;
+    }
+
+    .text-capitalize{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 576px) {
+
+    .connect-divs{
+        width: 100%;
+        height: 70px;
+    }
+
+    .connect .margin-top{
+        margin-top: 50px !important;
+    }
+
+    .connect .main{
+        margin-right: 50px;
+    }
+
+    .text-capitalize{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .connect-divs{
+        width: 100%;
+        height: 70px;
+    }
+
+    .connect .margin-top{
+        margin-top: 50px !important;
+    }
+
+    .connect .main{
+        margin-right: 50px;
+    }
+
+    .text-capitalize{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .connect-divs{
+        width: 70%;
+        height: 70px;
+    }
+    
+    .connect .margin-top{
+        margin-top: 20px !important;
+    }
+}
+  
+@media only screen and (min-width: 992px) and (max-width:1200px){
+
+    .connect-divs{
+        width: 70%;
+        height: 70px;
+    }
+
+    .connect .margin-top{
+        margin-top: 40px !important;
+    }
+}
